@@ -1,0 +1,10 @@
+/* basic Responsive Web Design */
+
+* {
+   float: left;
+   margin: 10px;
+   padding: 10px;
+   max-width: 300px;
+   height: 300px;
+   border: 1px solid black;
+}  
