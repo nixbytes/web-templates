@@ -9,7 +9,27 @@ html, body {
        padding: 0 10px;
 }
 .jumbotron {
-             background: url() no-repeat center center;
+             /* background: url() no-repeat center center;*/
+             background-color:#AB720F ;
              background-size: cover;
              height: 800px;
 }
+
+.header {
+       background-color: #333;
+     }
+
+/* remove nav dots */
+     .nav {
+             list-style-type: none;
+             margin: 0;
+             padding: 20px 0;
+           }
+           .nav li {
+                   color: #fff;
+                   display: inline;
+                   font-weight: 600;
+                   font-size: 12px;
+                   margin-right: 25px;
+                   text-transform: uppercase;
+                 }
