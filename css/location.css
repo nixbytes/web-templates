@@ -1,35 +1,55 @@
+
 html, body {
-       margin: 0;
-       padding: 0;
+  margin  : 0;
+  padding : 0;
 }
 
 .container {
-       max-width: 940px;
-       margin: 0 auto;
-       padding: 0 10px;
+  max-width : 940px;
+  margin    : 0 auto;
+  padding   : 0 10px;
 }
+
 .jumbotron {
-             /* background: url() no-repeat center center;*/
-             background-color:#AB720F ;
-             background-size: cover;
-             height: 800px;
+  height           : 800px;
+
+  /* background: url() no-repeat center center;*/
+  background-color : #AB720F ;
+  background-size  : cover;
 }
 
 .header {
-       background-color: #333;
-     }
+  background-color : #333;
+}
 
 /* remove nav dots */
-     .nav {
-             list-style-type: none;
-             margin: 0;
-             padding: 20px 0;
-           }
-           .nav li {
-                   color: #fff;
-                   display: inline;
-                   font-weight: 600;
-                   font-size: 12px;
-                   margin-right: 25px;
-                   text-transform: uppercase;
-                 }
+.nav {
+  margin          : 0;
+  padding         : 20px 0;
+
+  list-style-type : none;
+}
+
+.nav li {
+  display        : inline;
+
+  margin-right   : 25px;
+
+  font-size      : 12px;
+  font-weight    : 600;
+  color          : #fff;
+  text-transform : uppercase;
+}
+
+/* add footer styles with */
+.footer {
+  padding          : 30px 0;
+
+  background-color : #333;
+  color            : #fff;
+}
+
+.footer p {
+  font-size      : 11px;
+  text-transform : uppercase;
+}
