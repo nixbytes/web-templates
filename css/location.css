@@ -11,11 +11,12 @@ html, body {
 }
 
 .jumbotron {
-  height           : 800px;
+  height               : 800px;
 
-  background: url(http://lorempixel.com/output/city-q-c-640-480-9.jpg) no-repeat center center;
   /*background-color : #AB720F ;*/
-  background-size  : cover;
+  background-size      : cover;
+
+  background: url(http : //lorempixel.com/output/city-q-c-1200-800-1.jpg) no-repeat center center;
 }
 
 .header {
@@ -39,6 +40,23 @@ html, body {
   font-weight    : 600;
   color          : #fff;
   text-transform : uppercase;
+}
+
+.supporting {
+  padding-top    : 80px;
+  padding-bottom : 100px;
+}
+
+.supporting .col {
+  float      : left;
+
+  width      : 33%;
+
+  text-align : center;
+}
+
+.supporting img {
+  height : 76px;
 }
 
 /* add footer styles with */
