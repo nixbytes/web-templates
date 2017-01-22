@@ -13,8 +13,8 @@ html, body {
 .jumbotron {
   height           : 800px;
 
-  /* background: url() no-repeat center center;*/
-  background-color : #AB720F ;
+  background: url(http://lorempixel.com/output/city-q-c-640-480-9.jpg) no-repeat center center;
+  /*background-color : #AB720F ;*/
   background-size  : cover;
 }
 
