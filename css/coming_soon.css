@@ -4,13 +4,14 @@ body, html {
 }
 
 .bgimg {
-    background-image: url('pexels-photo.jpg');
+    background-image: url('../image/pexels-photo.jpg');
     height: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
     color: white;
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'UnifrakturCook', cursive;
+    /**font-family: "Courier New", Courier, monospace;**/
     font-size: 25px;
 }
 
