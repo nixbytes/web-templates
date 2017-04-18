@@ -2,6 +2,11 @@ body, html {
     height: 100%;
     margin: 0;
 }
+h1{
+
+  font-family: 'UnifrakturCook', cursive;
+
+}
 
 .bgimg {
     background-image: url('../image/pexels-photo.jpg');
@@ -10,11 +15,17 @@ body, html {
     background-size: cover;
     position: relative;
     color: white;
-    font-family: 'UnifrakturCook', cursive;
-    /**font-family: "Courier New", Courier, monospace;**/
+    font-family: "Courier New", Courier, monospace;
+
+    /****/
     font-size: 25px;
 
 }
+
+i{
+color: orange;
+}
+
 img{
   -webkit-filter: blur(5px); /* Safari */
   filter: blur(1px);
