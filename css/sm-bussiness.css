@@ -32,9 +32,8 @@ h4 {
   /*font-family: 'Anton', sans-serif;*/
   /*font-family: Montserrat, sans-serif;*/
   /*opacity: .9;*/
-width: 100%;
-height: auto;
-
+  width: 100%;
+  height: auto;
 }
 
 img {
@@ -79,8 +78,7 @@ img {
   margin-bottom: 10px;
 }
 
-.carousel-control.right,
-.carousel-control.left {
+.carousel-control.right, .carousel-control.left {
   background-image: none;
   color: #006699;
 }
@@ -164,13 +162,11 @@ img {
   /*font-family: Montserrat, sans-serif;*/
 }
 
-.navbar li a,
-.navbar .navbar-brand {
+.navbar li a, .navbar .navbar-brand {
   color: #fff !important;
 }
 
-.navbar-nav li a:hover,
-.navbar-nav li.active a {
+.navbar-nav li a:hover, .navbar-nav li.active a {
   color: #006699 !important;
   background-color: #fff !important;
 }
@@ -198,8 +194,7 @@ footer .glyphicon {
   visibility: visible;
 }
 
-.carousel-inner>.item>img,
-.carousel-inner>.item>a>img {
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
   width: 20%;
   margin: auto;
 }
