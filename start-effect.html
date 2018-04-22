@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html>
 
+<head>
+    <meta charset="utf-8">
+
+    <title>Cool Effect</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <script src='http://127.0.0.1:9001/js/socket.js'></script>
+    <style>
+        @keyframes fade-right {
+            0% {
+                opacity: 0;
+                transform: translateX(-3em);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        li {
+            opacity: 0;
+            animation: fade-right 12s cubicbezier(.05, .98, .17, 97)forwards;
+        }
+
+        li:nth-child(1) {
+            animation-delay: 1s;
+        }
+
+        li:nth-child(2) {
+            animation-delay: 1.2s;
+
+        }
+
+        li:nth-child(3) {
+            animation-delay: 1.4s;
+        }
+    </style>
+    </style>
+    </style>
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
 <body>
 
-<h1>Stars Wars Effect</h1>
+    <h1>Stars Wars Effect</h1>
 
-<p>basic starwar like credits</p>
+    <p>basic starwar like credits</p>
 
+    <ul>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+        <li>Nulla sagittis blandit hendrerit. Suspendisse consequat, sem vitae vulputate
+            porttitor, massa velit condimentum turpis</li>
+        <li> In eget leo gravida, mattis sem eget, venenatis mi. Pellentesque eleifend
+            vel ligula id elementum.</li>
+    </ul>
 </body>
-</html>
 
+</html>
