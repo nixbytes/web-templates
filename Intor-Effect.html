@@ -10,14 +10,35 @@
     <script src='http://127.0.0.1:9001/js/socket.js'></script>
     <style>
         @import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+        body {
+            /*background: #000 url(image/Vecteezy-16-2019.jpg) no-repeat;*/
+            /*background: #000;*/
+            /*background-position:;*/
+            /*background-size: cover;*/
 
-        body{
-        background: #000 url(image/Vecteezy-16-2019.jpg) no-repeat;
-        /*background: #000;*/
-        /*background-position:;*/
-        background-size: cover;
-        color: #fff;
-        font-family: "Droid Sans", arial, verdana, sans-serif;
+            color: #fff;
+            font-family: "Droid Sans", arial, verdana, sans-serif;
+        }
+
+        .flex-container {
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-flow: row wrap;
+            flex-flow: row wrap;
+            text-align: center;
+        }
+
+        .flex-container>* {
+            padding: 15px;
+            -webkit-flex: 1 100%;
+            flex: 1 100%;
+        }
+
+        header {
+            background: #000;
+            color: #fff;
+            height: 25%;
+            width: 100%;
         }
 
         @keyframes fade-right {
@@ -34,7 +55,7 @@
         li {
             opacity: 0;
             animation: fade-right 12s cubic-bezier(.05, .98, .17, .97)forwards;
-            list-style-type:none;
+            list-style-type: none;
             text-align: center;
             transform-origin: 50% 100%;
             transform: perspective(300px) rotateX(25deg);
@@ -46,14 +67,17 @@
 
         li:nth-child(2) {
             animation-delay: 1.2s;
-
         }
 
         li:nth-child(3) {
             animation-delay: 1.4s;
         }
-    </style>
-    </style>
+
+        footer {
+            height: 25%;
+            width: 100%;
+            background: #000;
+        }
     </style>
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -61,36 +85,37 @@
 </head>
 
 <body>
-    <header>
-        <center>
-        
-    <h1>Intro Effect</h1>
-        
-    <p>basic starwar like credits</p>
-        </center> 
-    
-    </header>
+    <div class="flex-container">
+        <header>
+            <center>
 
-    <main>
- <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-        <li>Nulla sagittis blandit hendrerit. Suspendisse consequat, sem vitae vulputate
-            porttitor, massa velit condimentum turpis</li>
-        <li> In eget leo gravida, mattis sem eget, venenatis mi. Pellentesque eleifend
-            vel ligula id elementum.</li>
-    </ul>   
-    
-    
-    </main>
+                <h1>Intro Effect</h1>
+
+                <p>basic effect intro</p>
+            </center>
+
+        </header>
+
+        <main>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                <li>Nulla sagittis blandit hendrerit. Suspendisse consequat, sem vitae
+                    vulputate porttitor, massa velit condimentum turpis</li>
+                <li> In eget leo gravida, mattis sem eget, venenatis mi. Pellentesque
+                    eleifend vel ligula id elementum.</li>
+            </ul>
+
+
+        </main>
 
 </body>
 
 <footer>
     <center>
-    <a href="https://vecteezy.com">Illustrations by vecteezy.com</a>
-    
+        <a href="https://vecteezy.com">Illustrations by vecteezy.com</a>
     </center>
 
 </footer>
+</div>
 
 </html>
