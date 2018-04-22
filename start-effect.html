@@ -9,9 +9,12 @@
     <meta name="author" content="SitePoint">
     <script src='http://127.0.0.1:9001/js/socket.js'></script>
     <style>
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
         body{
         background: #000;
         color: #fff;
+        font-family: "Droid Sans", arial, verdana, sans-serif;
         }
 
         @keyframes fade-right {
@@ -29,6 +32,9 @@
             opacity: 0;
             animation: fade-right 12s cubic-bezier(.05, .98, .17, .97)forwards;
             list-style-type:none;
+            text-align: center;
+            transform-origin: 50% 100%;
+            transform: perspective(300px) rotateX(25deg);
         }
 
         li:nth-child(1) {
@@ -52,18 +58,33 @@
 </head>
 
 <body>
-
+    <header>
+        <center>
+        
     <h1>Stars Wars Effect</h1>
-
+        
     <p>basic starwar like credits</p>
+        </center> 
+    
+    </header>
 
-    <ul>
+    <main>
+ <ul>
         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
         <li>Nulla sagittis blandit hendrerit. Suspendisse consequat, sem vitae vulputate
             porttitor, massa velit condimentum turpis</li>
         <li> In eget leo gravida, mattis sem eget, venenatis mi. Pellentesque eleifend
             vel ligula id elementum.</li>
-    </ul>
+    </ul>   
+    
+    
+    </main>
+
 </body>
+
+<footer>
+
+
+</footer>
 
 </html>
