@@ -9,6 +9,11 @@
     <meta name="author" content="SitePoint">
     <script src='http://127.0.0.1:9001/js/socket.js'></script>
     <style>
+        body{
+        background: #000;
+        color: #fff;
+        }
+
         @keyframes fade-right {
             0% {
                 opacity: 0;
@@ -23,6 +28,7 @@
         li {
             opacity: 0;
             animation: fade-right 12s cubic-bezier(.05, .98, .17, .97)forwards;
+            list-style-type:none;
         }
 
         li:nth-child(1) {
