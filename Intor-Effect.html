@@ -15,30 +15,22 @@
             /*background: #000;*/
             /*background-position:;*/
             /*background-size: cover;*/
-
+            background: #000;
             color: #fff;
             font-family: "Droid Sans", arial, verdana, sans-serif;
         }
 
-        .flex-container {
-            display: -webkit-flex;
-            display: flex;
-            -webkit-flex-flow: row wrap;
-            flex-flow: row wrap;
-            text-align: center;
-        }
-
-        .flex-container>* {
-            padding: 15px;
-            -webkit-flex: 1 100%;
-            flex: 1 100%;
-        }
-
         header {
             background: #000;
-            color: #fff;
-            height: 25%;
-            width: 100%;
+        }
+
+        h1 {
+            font-size: 4em;
+            font-weight: 900;
+            opacity: 0;
+            margin: 1 auto 0.25em auto;
+            transform: rotateX(10deg);
+            animation: fade-in-3d 5s cubic-bezier(.99, -0.33, .17, 1.38) forwards;
         }
 
         @keyframes fade-right {
@@ -85,28 +77,27 @@
 </head>
 
 <body>
-    <div class="flex-container">
-        <header>
-            <center>
+    <header>
+        <center>
 
-                <h1>Intro Effect</h1>
+            <h1>Intro Effect</h1>
 
-                <p>basic effect intro</p>
-            </center>
+            <p>basic effect intro</p>
+        </center>
 
-        </header>
+    </header>
 
-        <main>
-            <ul>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                <li>Nulla sagittis blandit hendrerit. Suspendisse consequat, sem vitae
-                    vulputate porttitor, massa velit condimentum turpis</li>
-                <li> In eget leo gravida, mattis sem eget, venenatis mi. Pellentesque
-                    eleifend vel ligula id elementum.</li>
-            </ul>
+    <main>
+        <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+            <li>Nulla sagittis blandit hendrerit. Suspendisse consequat, sem vitae
+                vulputate porttitor, massa velit condimentum turpis</li>
+            <li> In eget leo gravida, mattis sem eget, venenatis mi. Pellentesque eleifend
+                vel ligula id elementum.</li>
+        </ul>
 
 
-        </main>
+    </main>
 
 </body>
 
@@ -116,6 +107,5 @@
     </center>
 
 </footer>
-</div>
 
 </html>
