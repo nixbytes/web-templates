@@ -1,85 +1,86 @@
-
-html, body {
-  margin  : 0;
-  padding : 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-  max-width : 940px;
-  margin    : 0 auto;
-  padding   : 0 10px;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 .jumbotron {
-  height               : 800px;
+  height: 800px;
 
   /*background-color : #AB720F ;*/
-  background-size      : cover;
+  background-size: cover;
 
-  background: url(http : //lorempixel.com/output/city-q-c-1200-800-1.jpg) no-repeat center center;
+  background: url(http://lorempixel.com/output/city-q-c-1200-800-1.jpg)
+    no-repeat center center;
 }
 
 .header {
-  background-color : #333;
+  background-color: #333;
 }
 
 /* remove nav dots */
 .nav {
-  margin          : 0;
-  padding         : 20px 0;
+  margin: 0;
+  padding: 20px 0;
 
-  list-style-type : none;
+  list-style-type: none;
 }
 
 .nav li {
-  display        : inline;
+  display: inline;
 
-  margin-right   : 25px;
+  margin-right: 25px;
 
-  font-size      : 12px;
-  font-weight    : 600;
-  color          : #fff;
-  text-transform : uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .supporting {
-  padding-top    : 80px;
-  padding-bottom : 100px;
+  padding-top: 80px;
+  padding-bottom: 100px;
 }
 
 .supporting .col {
-  float      : left;
+  float: left;
 
-  width      : 33%;
-  padding    : 10px;
+  width: 33%;
+  padding: 10px;
 
-  text-align : center;
+  text-align: center;
 }
 
 .supporting img {
-  height : 76px;
+  height: 76px;
 }
 
 /* add footer styles with */
 .footer {
-  padding          : 30px 0;
+  padding: 30px 0;
 
-  background-color : #333;
-  color            : #fff;
+  background-color: #333;
+  color: #fff;
 }
 
 .footer p {
-  font-size      : 11px;
-  text-transform : uppercase;
+  font-size: 11px;
+  text-transform: uppercase;
 }
 
 /* Add media for mobile */
 @media (max-width: 500px) {
   .main h1 {
-    padding   : 0 40px;
-    font-size : 50px;
+    padding: 0 40px;
+    font-size: 50px;
   }
   .supporting .col {
-    width : 100%;
+    width: 100%;
   }
 }

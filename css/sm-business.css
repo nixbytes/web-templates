@@ -25,14 +25,14 @@ h4 {
   background-size: 100% 240%;
   color: #fff;
   padding: 100px 25px;
-  font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
   font-weight: 600;
   width: 100%;
   height: auto;
 }
 
 img {
-  border: 0
+  border: 0;
 }
 
 .container-fluid {
@@ -65,7 +65,8 @@ img {
   margin-bottom: 10px;
 }
 
-.carousel-control.right, .carousel-control.left {
+.carousel-control.right,
+.carousel-control.left {
   background-image: none;
   color: #006699;
 }
@@ -97,7 +98,7 @@ img {
 }
 
 .panel:hover {
-  box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+  box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.2);
 }
 
 .panel-footer .btn:hover {
@@ -145,15 +146,17 @@ img {
   line-height: 1.42857143 !important;
   letter-spacing: 4px;
   border-radius: 0;
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
   /*font-family: Montserrat, sans-serif;*/
 }
 
-.navbar li a, .navbar .navbar-brand {
+.navbar li a,
+.navbar .navbar-brand {
   color: #fff !important;
 }
 
-.navbar-nav li a:hover, .navbar-nav li.active a {
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
   color: #006699 !important;
   background-color: #fff !important;
 }
@@ -181,7 +184,8 @@ footer .glyphicon {
   visibility: visible;
 }
 
-.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
   width: 20%;
   margin: auto;
 }

@@ -1,56 +1,54 @@
-body, html {
-    height: 100%;
-    margin: 0;
+body,
+html {
+  height: 100%;
+  margin: 0;
 }
-h1{
-
-  font-family: 'UnifrakturCook', cursive;
-
+h1 {
+  font-family: "UnifrakturCook", cursive;
 }
 
 .bgimg {
-    background-image: url('../image/pexels-photo.jpg');
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    color: white;
-    font-family: "Courier New", Courier, monospace;
+  background-image: url("../image/pexels-photo.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
 
-    /****/
-    font-size: 25px;
-
+  /****/
+  font-size: 25px;
 }
 
-i{
-color: orange;
+i {
+  color: orange;
 }
 
-img{
+img {
   -webkit-filter: blur(5px); /* Safari */
   filter: blur(1px);
 }
 .topleft {
-    position: absolute;
-    top: 0;
-    left: 16px;
+  position: absolute;
+  top: 0;
+  left: 16px;
 }
 
 .bottomleft {
-    position: absolute;
-    bottom: 0;
-    left: 16px;
+  position: absolute;
+  bottom: 0;
+  left: 16px;
 }
 
 .middle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 hr {
-    margin: auto;
-    width: 40%;
+  margin: auto;
+  width: 40%;
 }
