@@ -1,12 +1,12 @@
-# Template
+# Web Template
 
-A collection of professional front-end template for building fast, robust, and adaptable web apps or sites
-knowledge that I collected from varies of sources
+A collection of professional front-end template and knowledge that I collected from varies of sources. which include codeacademy, w3school and varies sites
 
-### List of templates and source
-- basic (basic template for front-end template)
-- Location (adding location for maps or sites)
-- Soming Soon (launching soon page source from [w3school](https://www.w3schools.com/howto/howto_css_coming_soon.asp))
-- Restautrant (a basic restautrant template)
-- Business (basic small business page)
-- Code Academy Resource
+- from codeacademy [Arts Crafts](https://linuxbytes.github.io/web-templates/arts-crafts.html)
+- from codeacademy [Best Coffee](https://linuxbytes.github.io/web-templates/best-coffee.html)
+- from w3school    [Coming Soon](https://linuxbytes.github.io/web-templates/coming_soon.html)
+- from codeacademy [Fashion](https://linuxbytes.github.io/web-templates/fashion.html)
+- from codeacademy [Form Page](https://linuxbytes.github.io/web-templates/form-page.html)
+- from codeacademy [House Store.html](https://linuxbytes.github.io/web-templates/house-store.html)
+
+most content and site are from practice online course and tryout of varies resources, by any mean this is more a experimental testing ground for html and css. which will be a under MIT 
